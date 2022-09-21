@@ -1,0 +1,20 @@
+type PollResponse @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  option1: Int!
+  option2: Int!
+  option3: Int!
+  option4: Int!
+  responses: Int!
+}
+
+type Poll @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  author: String!
+  question: String!
+  option1: String!
+  option2: String!
+  option3: String!
+  option4: String!
+  PollResponse: PollResponse @hasOne
+}
+ 

@@ -1,0 +1,28 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-hashpoll-staging-102200-authRole",
+      "UnauthRoleArn": "arn:aws:iam::754719441283:role/amplify-hashpoll-staging-102200-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::754719441283:role/amplify-hashpoll-staging-102200-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-hashpoll-staging-102200-deployment",
+      "UnauthRoleName": "amplify-hashpoll-staging-102200-unauthRole",
+      "StackName": "amplify-hashpoll-staging-102200",
+      "StackId": "arn:aws:cloudformation:us-east-1:754719441283:stack/amplify-hashpoll-staging-102200/3aec6810-3997-11ed-bde2-12e18627eeef",
+      "AmplifyAppId": "d5prfp0zujfss",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-hashpoll-staging-102200-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
+    },
+    "categories": {
+      "auth": {
+        "hashpoll9dbe5dc9": {},
+        "true": {}
+      },
+      "function": {
+        "hashpoll": {
+          "deploymentBucketName": "amplify-hashpoll-staging-102200-deployment",
+          "s3Key": "amplify-builds/hashpoll-533331486f7269726b5a-build.zip"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "hashpoll",
+    "serviceName": "AppSync",
+    "defaultAuthType": {
+      "mode": "AMAZON_COGNITO_USER_POOLS",
+      "cognitoUserPoolId": "authhashpoll9dbe5dc9"
+    },
+    "additionalAuthTypes": [
+      {
+        "mode": "API_KEY",
+        "expirationTime": 365,
+        "apiKeyExpirationDate": "2023-09-21T15:41:18.536Z",
+        "keyDescription": "mainkey"
+      },
+      {
+        "mode": "AWS_IAM"
+      },
+      {
+        "mode": "AWS_LAMBDA",
+        "lambdaFunction": "graphQlLambdaAuthorizerfcd3ceac",
+        "ttlSeconds": "300"
+      }
+    ],
+    "conflictResolution": {
+      "defaultResolutionStrategy": {
+        "type": "AUTOMERGE"
+      }
+    }
+  }
+}

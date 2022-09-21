@@ -10,13 +10,6 @@ export const schema = {
                     "isRequired": true,
                     "attributes": []
                 },
-                "question_id": {
-                    "name": "question_id",
-                    "isArray": false,
-                    "type": "ID",
-                    "isRequired": true,
-                    "attributes": []
-                },
                 "option1": {
                     "name": "option1",
                     "isArray": false,
@@ -212,5 +205,5 @@ export const schema = {
     },
     "enums": {},
     "nonModels": {},
-    "version": "0fc52e4a460bb39cedbbedfb79071a44"
+    "version": "89cc77f5788c0b9da31b77fc9e4b7bda"
 };

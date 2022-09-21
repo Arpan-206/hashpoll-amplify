@@ -5,7 +5,6 @@ export const onCreatePollResponse = /* GraphQL */ `
   subscription OnCreatePollResponse {
     onCreatePollResponse {
       id
-      question_id
       option1
       option2
       option3
@@ -23,7 +22,6 @@ export const onUpdatePollResponse = /* GraphQL */ `
   subscription OnUpdatePollResponse {
     onUpdatePollResponse {
       id
-      question_id
       option1
       option2
       option3
@@ -41,7 +39,6 @@ export const onDeletePollResponse = /* GraphQL */ `
   subscription OnDeletePollResponse {
     onDeletePollResponse {
       id
-      question_id
       option1
       option2
       option3
@@ -67,7 +64,6 @@ export const onCreatePoll = /* GraphQL */ `
       option4
       PollResponse {
         id
-        question_id
         option1
         option2
         option3
@@ -100,7 +96,6 @@ export const onUpdatePoll = /* GraphQL */ `
       option4
       PollResponse {
         id
-        question_id
         option1
         option2
         option3
@@ -133,7 +128,6 @@ export const onDeletePoll = /* GraphQL */ `
       option4
       PollResponse {
         id
-        question_id
         option1
         option2
         option3

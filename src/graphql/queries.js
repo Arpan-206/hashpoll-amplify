@@ -5,7 +5,6 @@ export const getPollResponse = /* GraphQL */ `
   query GetPollResponse($id: ID!) {
     getPollResponse(id: $id) {
       id
-      question_id
       option1
       option2
       option3
@@ -28,7 +27,6 @@ export const listPollResponses = /* GraphQL */ `
     listPollResponses(filter: $filter, limit: $limit, nextToken: $nextToken) {
       items {
         id
-        question_id
         option1
         option2
         option3
@@ -60,7 +58,6 @@ export const syncPollResponses = /* GraphQL */ `
     ) {
       items {
         id
-        question_id
         option1
         option2
         option3
@@ -89,7 +86,6 @@ export const getPoll = /* GraphQL */ `
       option4
       PollResponse {
         id
-        question_id
         option1
         option2
         option3

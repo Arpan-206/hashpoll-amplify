@@ -10,7 +10,6 @@ type PollMetaData = {
 
 export declare class PollResponse {
   readonly id: string;
-  readonly question_id: string;
   readonly option1: number;
   readonly option2: number;
   readonly option3: number;

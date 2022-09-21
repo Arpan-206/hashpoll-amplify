@@ -8,7 +8,6 @@ export const createPollResponse = /* GraphQL */ `
   ) {
     createPollResponse(input: $input, condition: $condition) {
       id
-      question_id
       option1
       option2
       option3
@@ -29,7 +28,6 @@ export const updatePollResponse = /* GraphQL */ `
   ) {
     updatePollResponse(input: $input, condition: $condition) {
       id
-      question_id
       option1
       option2
       option3
@@ -50,7 +48,6 @@ export const deletePollResponse = /* GraphQL */ `
   ) {
     deletePollResponse(input: $input, condition: $condition) {
       id
-      question_id
       option1
       option2
       option3
@@ -79,7 +76,6 @@ export const createPoll = /* GraphQL */ `
       option4
       PollResponse {
         id
-        question_id
         option1
         option2
         option3
@@ -115,7 +111,6 @@ export const updatePoll = /* GraphQL */ `
       option4
       PollResponse {
         id
-        question_id
         option1
         option2
         option3
@@ -151,7 +146,6 @@ export const deletePoll = /* GraphQL */ `
       option4
       PollResponse {
         id
-        question_id
         option1
         option2
         option3

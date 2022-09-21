@@ -16,12 +16,6 @@
       "auth": {
         "hashpoll9dbe5dc9": {},
         "true": {}
-      },
-      "function": {
-        "hashpoll": {
-          "deploymentBucketName": "amplify-hashpoll-staging-102200-deployment",
-          "s3Key": "amplify-builds/hashpoll-533331486f7269726b5a-build.zip"
-        }
       }
     }
   }

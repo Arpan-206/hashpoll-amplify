@@ -11,16 +11,11 @@
       {
         "mode": "API_KEY",
         "expirationTime": 365,
-        "apiKeyExpirationDate": "2023-09-21T15:41:18.536Z",
+        "apiKeyExpirationDate": "2023-09-21T17:06:23.190Z",
         "keyDescription": "mainkey"
       },
       {
         "mode": "AWS_IAM"
-      },
-      {
-        "mode": "AWS_LAMBDA",
-        "lambdaFunction": "graphQlLambdaAuthorizerfcd3ceac",
-        "ttlSeconds": "300"
       }
     ],
     "conflictResolution": {

@@ -1,5 +1,5 @@
 
-# Hashpoll (CLI)
+# Hashpoll 
 
 ![Hashpoll Banner](https://github.com/Arpan-206/hashpoll-cli/raw/main/assets/Hashpoll.png)
 

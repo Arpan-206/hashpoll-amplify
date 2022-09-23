@@ -97,13 +97,6 @@ export const schema = {
                     "isRequired": true,
                     "attributes": []
                 },
-                "author": {
-                    "name": "author",
-                    "isArray": false,
-                    "type": "String",
-                    "isRequired": true,
-                    "attributes": []
-                },
                 "question": {
                     "name": "question",
                     "isArray": false,
@@ -205,5 +198,5 @@ export const schema = {
     },
     "enums": {},
     "nonModels": {},
-    "version": "89cc77f5788c0b9da31b77fc9e4b7bda"
+    "version": "ef1326ec171851e9891eaea613248c82"
 };

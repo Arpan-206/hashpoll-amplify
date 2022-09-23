@@ -5,10 +5,13 @@ export type AmplifyDependentResourcesAttributes = {
             "GraphQLAPIIdOutput": "string",
             "GraphQLAPIEndpointOutput": "string"
         },
-        "hp": {
-            "RootUrl": "string",
+        "hashapi": {
+            "ServiceName": "string",
+            "ClusterName": "string",
+            "PipelineName": "string",
+            "ContainerNames": "string",
             "ApiName": "string",
-            "ApiId": "string"
+            "RootUrl": "string"
         }
     },
     "auth": {
@@ -20,14 +23,6 @@ export type AmplifyDependentResourcesAttributes = {
             "UserPoolName": "string",
             "AppClientIDWeb": "string",
             "AppClientID": "string"
-        }
-    },
-    "function": {
-        "hashpoll": {
-            "Name": "string",
-            "Arn": "string",
-            "Region": "string",
-            "LambdaExecutionRole": "string"
         }
     }
 }

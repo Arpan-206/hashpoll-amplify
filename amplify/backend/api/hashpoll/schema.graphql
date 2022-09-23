@@ -9,7 +9,6 @@ type PollResponse @model @auth(rules: [{allow: public}]) {
 
 type Poll @model @auth(rules: [{allow: public}]) {
   id: ID!
-  author: String!
   question: String!
   option1: String!
   option2: String!
@@ -17,4 +16,3 @@ type Poll @model @auth(rules: [{allow: public}]) {
   option4: String!
   PollResponse: PollResponse @hasOne
 }
- 

@@ -68,7 +68,6 @@ export const createPoll = /* GraphQL */ `
   ) {
     createPoll(input: $input, condition: $condition) {
       id
-      author
       question
       option1
       option2
@@ -103,7 +102,6 @@ export const updatePoll = /* GraphQL */ `
   ) {
     updatePoll(input: $input, condition: $condition) {
       id
-      author
       question
       option1
       option2
@@ -138,7 +136,6 @@ export const deletePoll = /* GraphQL */ `
   ) {
     deletePoll(input: $input, condition: $condition) {
       id
-      author
       question
       option1
       option2

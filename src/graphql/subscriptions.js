@@ -56,7 +56,6 @@ export const onCreatePoll = /* GraphQL */ `
   subscription OnCreatePoll {
     onCreatePoll {
       id
-      author
       question
       option1
       option2
@@ -88,7 +87,6 @@ export const onUpdatePoll = /* GraphQL */ `
   subscription OnUpdatePoll {
     onUpdatePoll {
       id
-      author
       question
       option1
       option2
@@ -120,7 +118,6 @@ export const onDeletePoll = /* GraphQL */ `
   subscription OnDeletePoll {
     onDeletePoll {
       id
-      author
       question
       option1
       option2

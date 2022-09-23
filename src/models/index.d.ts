@@ -23,7 +23,6 @@ export declare class PollResponse {
 
 export declare class Poll {
   readonly id: string;
-  readonly author: string;
   readonly question: string;
   readonly option1: string;
   readonly option2: string;

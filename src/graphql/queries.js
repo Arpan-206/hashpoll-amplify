@@ -78,7 +78,6 @@ export const getPoll = /* GraphQL */ `
   query GetPoll($id: ID!) {
     getPoll(id: $id) {
       id
-      author
       question
       option1
       option2
@@ -115,7 +114,6 @@ export const listPolls = /* GraphQL */ `
     listPolls(filter: $filter, limit: $limit, nextToken: $nextToken) {
       items {
         id
-        author
         question
         option1
         option2
@@ -148,7 +146,6 @@ export const syncPolls = /* GraphQL */ `
     ) {
       items {
         id
-        author
         question
         option1
         option2
